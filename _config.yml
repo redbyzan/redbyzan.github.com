@@ -1,21 +1,77 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: "RedByzan"
+description: redbyzan's blog theme MAD4Jekyll
+logo: favicon.png
+discus_shortname: RogerJo
+header-img: img/home-bg.jpg
+email: jmirs83@gmail.com
+url: http://redbyzan.github.io
+search: true
+share: true
+comments: true
+
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime: true
+
+# Specify the average Words per minute. If not defined, 180 will be used
+wpm: 200
+
+# Owner/author information
+owner:
+  name:   redbyzan
+  avatar: avatar.jpg
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    redbyzan's blog theme MAD4Jekyll
+
+# Social networking links used in footer. Update and remove as you like.
+twitter_username: MAD4Jekyll
+facebook_username: MAD4Jekyll
+github_username: MAD4Jekyll
+deviantart_username: MAD4Jekyll
+500px_username: MAD4Jekyll
+flickr_username: MAD4Jekyll
+instagram_username: MAD4Jekyll
+
+ 
+# Internal nav
+nav:
+ writing: "source_url/writing/"
+ gallery: "source_url/gallery/"
+ about: "source_url/about/"
+
+
+# Server
+destination:      	 ./_site
+port:             	 4000
 
 # Build settings
-markdown: kramdown
+highlighter:         pygments
+markdown:           redcarpet
+redcarpet:
+    extensions:     
+     - Hard_wrap
+     - no_intra_emphasis
+     - strikethrough
+     - fenced_code_blocks
+     - autolink
+     - tables
+     - with_toc_data
+     - highlight
+     - footnotes
+    input:          GFM
+sass:
+    style:          :compressed
+
+ # PAGINATION
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "/writing/page:num/"
+permalink: "/writing/:title/"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+slugify: "pretty"
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-xxxxxxxx-x
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         

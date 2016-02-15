@@ -1,38 +1,20 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p class="copyright text-muted">{{ site.title }} &copy;  {{ site.time | date: '%Y' }}</p>
+<center><h6><p>Powered by <a href="https://github.com/">Github</a> - <a href="https://github.com/jekyll/">Jekyll</a> - <a href="https://github.com/madforjekyll/madforjekyll.github.io">MAD4Jekyll</a>.</p></h6></center>
+            </div>
+        </div>
     </div>
-
-  </div>
-
 </footer>
+
+<!-- jQuery -->
+<script src="{{ "/js/jquery.min.js" | prepend: site.url }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.url }}"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="{{ "/js/clean-blog.min.js" | prepend: site.url }}"></script>
