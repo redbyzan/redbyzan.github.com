@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Markdown Cheatsheet
+title: 마크다운
 subtitle: This is Markdown Cheatsheet for MAD4Jekyll
 date:       2015-11-25 12:00:00
-author:     "MADness"
+author:     "redbyzan"
 header-img: "img/blog/header/post-bg-02.jpg"
 thumbnail: /img/blog/thumbs/thumb02.png
 tags: [tag-name-one, tag-name-two]
