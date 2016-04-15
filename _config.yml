@@ -48,7 +48,7 @@ destination:      	 ./_site
 port:             	 4000
 
 # Build settings
-highlighter:         pygments
+highlighter:         rouge
 markdown:           redcarpet
 redcarpet:
     extensions:     
