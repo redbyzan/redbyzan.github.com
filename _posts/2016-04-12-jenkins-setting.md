@@ -123,11 +123,13 @@ HTTP_PORT=8080 -> HTTP_PORT=9999
 2. 오른편의 플러그인 관리 메뉴를 클릭합니다.
 3. 설치가능 탭을 클릭한 후 오른쪽 필터 부분에 원하는 플러그인 이름을 검색합니다.
 4. 검색한 플러그인들을 선택 한 후 하단의 재시작 없이 설치하기 버튼을 클릭하여 젠킨스에 적용되도록 합니다.
+    ![젠킨스 플러그인 설치](/img/blog/jenkins-setting/젠킨스-플러그인-설치.png)<br/>
 5. 현재 Mr.젠킨스에 사용중인 플러그인은 Git, Bitbucket, Gradle, Publish Over SSH 입니다.
+    ![젠킨스 플러그인 설치](/img/blog/jenkins-setting/젠킨스-플러그인-bitbucket.png)
+    ![젠킨스 플러그인 설치](/img/blog/jenkins-setting/젠킨스-플러그인-gradle.png)
+    ![젠킨스 플러그인 설치](/img/blog/jenkins-setting/젠킨스-플러그인-SSH.png)
 
-![젠킨스 플러그인 설치](/img/blog/jenkins-setting/젠킨스-플러그인-설치.png)
 
-![젠킨스 플러그인 설치](/img/blog/jenkins-setting/젠킨스-플러그인-리스트.png)
 
 ---
 
