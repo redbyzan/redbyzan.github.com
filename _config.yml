@@ -62,6 +62,7 @@ redcarpet:
 sass:
     style:          :compressed
 
+
  # PAGINATION
 gems: [jekyll-paginate]
 paginate: 5
@@ -74,4 +75,4 @@ slugify: "pretty"
 google_analytics:   UA-67144579-2
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:

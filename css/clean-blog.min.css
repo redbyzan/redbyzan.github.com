@@ -1,6 +1,6 @@
 body {
   font-family: Lora, 'Times New Roman', serif;
-  font-size: 3rem;
+  font-size: 2rem !important;
   color: #dddddd;
   background-color: #30292B;
   background-image: url('../img/pattern.jpg');
