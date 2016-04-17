@@ -5,7 +5,7 @@ subtitle: 젠킨스 구축하기
 date:       2016-04-12 12:00:00
 author:     "redbyzan"
 header-img: "img/blog/header/jenkins-header.jpeg"
-thumbnail: /img/blog/thumbs/jenkins-thumbnail2.jpeg
+thumbnail: /img/blog/thumbs/thumb-jenkins.png
 tags: [jenkins]
 categories: [dev]
 require: 'jekyll-utf8'

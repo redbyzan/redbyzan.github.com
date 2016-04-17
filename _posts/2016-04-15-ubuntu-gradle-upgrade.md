@@ -5,7 +5,7 @@ subtitle: 우분투에서 gradle build 오류 발생 대처하기
 date:       2016-04-15 15:00:00
 author: "redbyzan"
 header-img: "img/blog/header/header-ubuntu.jpeg"
-thumbnail: /img/blog/thumbs/thumb-gradle.jpeg
+thumbnail: /img/blog/thumbs/thumb-gradle.png
 tags: [npm]
 categories: [ubuntu]
 ---
