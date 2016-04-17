@@ -5,7 +5,7 @@ subtitle: apt-get을 통한 오류 해결
 date:       2016-04-15 12:00:00
 author:     "redbyzan"
 header-img: "img/blog/header/header-ubuntu.jpeg"
-thumbnail: /img/blog/thumbs/thumb-npm.jpeg
+thumbnail: /img/blog/thumbs/thumb-npm.png
 tags: [npm]
 categories: [ubuntu]
 ---

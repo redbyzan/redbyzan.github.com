@@ -10,7 +10,7 @@ tags: [npm]
 categories: [ubuntu]
 ---
 
-spring-boot프로젝트의 빌드를 위해 gradle build 명령문 실행 시 오류가 발생 하였습니다.
+## spring-boot프로젝트의 빌드를 위해 gradle build 명령문 실행 시 오류가 발생 하였습니다.
 
 원인은 우분투 apt-get 을 통해 gradle을 설치하면 저장소가 갱신되지 않은 형태에서는 gradle 버전이 1.4였음을 확인하여
  
