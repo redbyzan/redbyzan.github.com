@@ -70,6 +70,21 @@ sudo vi /etc/default/jenkins
 // port 부분을 변경합니다.
 HTTP_PORT=8080 -> HTTP_PORT=9999
 ```
+<br/>
+##### 2016-05-10 추가
+젠킨스와 다른 톰캣을 한 서버에서 서비스할때 nginx 에서 proxy_pass를 적용하려던 차에 젠킨스의 
+
+기본 주소를 / 가 아닌 /jenkins로 변경하려는 요구가 있었습니다.
+
+위에 설명한 동일 파일에 하단에 내려가보면 ```PRIFIX=$NAME```으로 선언된 변수가 있습니다. 
+
+기본적으로 ```$NAME=jenkins```이며 
+
+```
+JENKINS_ARGS="--webroot=/var/cache/$NAME/war --httpPort=$HTTP_PORT --ajp13Port=$AJP_PORT --prefix=$PREFIX"
+```
+
+위와 같이 ```--prefix``` 부분을 추가하면 젠킨스의 기본 주소를 변경할 수 있습니다.
 
 ---
 
