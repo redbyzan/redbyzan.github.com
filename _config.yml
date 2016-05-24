@@ -68,7 +68,7 @@ sass:
 
  # PAGINATION
 gems: [jekyll-paginate]
-paginate: 5
+paginate: 10
 paginate_path: "/writing/page:num/"
 permalink: "/writing/:title/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
